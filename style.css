@@ -1,8 +1,9 @@
-boddy{
+body{
     margin: 0px;
-    font-family: 'Inter', sans-serif;
+
     font-family: 'Poppins', sans-serif;
 }
+
 .background-img{
     background-image: url("/images/donation1.jpg");
     background-repeat: no-repeat;
@@ -20,7 +21,7 @@ boddy{
   
 }
 .fornt-side h1{
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 700;
 }
 
@@ -42,17 +43,23 @@ boddy{
     
 }
 .money{
-    background-color: rgb(240, 205, 205);
+    background-color: rgb(242, 235, 235);
     margin-left: 10px;
     margin-right: 10px;
+    padding: 15px;
+    border-radius: 5px;
 }
 .taka{
     background-color: rgb(236, 226, 167);
     margin-left: 10px;
     margin-right: 10px;
+    padding: 15px;
+    border: 1px solid tomato;
+    border-radius: 5px;
 }
 .donate h1{
     padding: 10px;
+    margin-top: 2cm;
    
 }
 .food{
@@ -63,6 +70,7 @@ boddy{
     margin-left: 25px;
     margin-right: 25px;
     padding-top: 70px;
+    margin-top: 2cm;
     
 }
 .shelter{
@@ -73,6 +81,7 @@ boddy{
     margin-left: 25px;
     margin-right: 25px;
     padding-top: 70px;
+    margin-top: 2cm;
 }
 .education{
     background-color: rgb(251, 251, 227);
@@ -82,6 +91,8 @@ boddy{
     margin-left: 25px;
     margin-right: 25px;
     padding-top: 70px;
+    margin-top: 2cm;
+
 }
 .widows{
     background-image:url("/images/donation2.jpg") ;
@@ -91,8 +102,46 @@ boddy{
     background-position: center;
     background-size: cover;
     border-top: 50px;
+    margin-bottom: 30px;
 
 }
 .widows h1{
     font-size: 50px;
+}
+.updates{
+    text-align: center;
+}
+.email{
+    background-color: rgb(206, 196, 196);
+    text-decoration: none;
+    padding: 10px;
+    color: gray;
+    margin-top: 25px;
+    
+}
+.subscribe{
+    background-color: tomato;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    margin-top: 25px;
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+footer{
+    background-color: black;
+    color: red;
+    text-align: center;
+    padding: 25px;
+}
+footer p{
+    color:gray;
+    padding: 20px;
+}
+footer h1{
+    font-family: 'Lobster', cursive;
 }
