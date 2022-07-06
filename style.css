@@ -1,5 +1,4 @@
-boddy,html{
-    height: 100%;
+boddy{
     margin: 0px;
     font-family: 'Inter', sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -12,6 +11,7 @@ boddy,html{
     justify-content: center;
     background-position: center;
     background-size: cover;
+    border-top: 50px;
 }
 .fornt-side{
   padding: 20px;
@@ -29,19 +29,47 @@ boddy,html{
     background-color: tomato;
     padding: 10px;
     color: white;
-    width: 500;
-    margin-top: 20px;
     border-radius: 5px;
+    margin-top: 25px;
 }
 .donate-today{
+    margin-top: 2cm;
     text-align: center;
 }
 .donate{
     display: flex;
-    
     justify-content: center;
+    
 }
 .donate h1{
     padding: 10px;
    
+}
+.food{
+    background-color: rgb(212, 209, 209);
+    border-radius: 3%;
+    border: 15px;
+    padding: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 70px;
+    
+}
+.shelter{
+    background-color: rgb(250, 215, 221);
+    border-radius: 3%;
+    border: 15px;
+    padding: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 70px;
+}
+.education{
+    background-color: rgb(251, 251, 227);
+    border-radius: 3%;
+    border: 15px;
+    padding: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 70px;
 }
