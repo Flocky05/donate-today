@@ -31,7 +31,7 @@ body{
     padding: 10px;
     color: white;
     border-radius: 5px;
-    margin-top: 25px;
+    
 }
 .donate-today{
     margin-top: 2cm;
@@ -40,6 +40,7 @@ body{
 .donate{
     display: flex;
     justify-content: center;
+    
     
 }
 .money{
@@ -115,6 +116,7 @@ body{
     margin-top: 50px;
     border-radius: 5px 0px 0px 5px;
     
+    
 }
 .subscribe{
     background-color: tomato;
@@ -133,6 +135,8 @@ body{
     width: 70%;
     margin: 0 auto;
     margin-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
 }
 .get-my-update{
@@ -147,6 +151,7 @@ footer{
     color: red;
     text-align: center;
     padding: 25px;
+    margin-top: 2cm;
 }
 footer p{
     color:gray;
